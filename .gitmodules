@@ -1,0 +1,3 @@
+[submodule "source-map-mappings"]
+	path = source-map-mappings
+	url = https://github.com/fitzgen/source-map-mappings.git

@@ -1,0 +1,10 @@
+[package]
+name = "allocator-wee-alloc"
+version = "0.1.0"
+authors = ["Nick Fitzgerald <fitzgen@gmail.com>"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wee_alloc = { version = "0.4", default-features = false }

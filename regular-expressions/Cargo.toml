@@ -1,0 +1,10 @@
+[package]
+name = "regular-expressions"
+version = "0.1.0"
+authors = ["Nick Fitzgerald <fitzgen@gmail.com>"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+regex = "1"

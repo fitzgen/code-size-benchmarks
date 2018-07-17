@@ -1,0 +1,17 @@
+[workspace]
+members = [
+    "./allocator-system",
+    "./allocator-wee-alloc",
+    "./panic-empty",
+    "./panic-in-bounds-check",
+    "./panic-in-unwrap",
+    "./panic-with-dynamic-message",
+    "./panic-with-static-message",
+    "./regular-expressions",
+    "./source-map-mappings/source-map-mappings-wasm-api",
+]
+
+[profile.release]
+lto = true
+opt-level = "s"
+debug = false

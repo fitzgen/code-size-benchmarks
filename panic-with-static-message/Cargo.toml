@@ -1,0 +1,9 @@
+[package]
+name = "panic-with-static-message"
+version = "0.1.0"
+authors = ["Nick Fitzgerald <fitzgen@gmail.com>"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
